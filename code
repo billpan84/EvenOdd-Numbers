@@ -1,20 +1,21 @@
+//vivliothikes
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
 
 int main(){
-    int x;
+    int x;//dinoume enan akeraio arithmo
     
     printf("dose arithmo\n");
-    scanf("%d",&x);
-    if ((x % 2) == 0 )
+    scanf("%d",&x);//pliktrologi o xristis enan arithmo
+    if ((x % 2) == 0 )//kanoume ton elegxo an o arithmos diairitai me to 2 kai an ine isos me to 0
     {
         printf("o arithmos einai artios\n", x);
-    }
+    }//mas epistrefi tin timi an einai artios
     else
     {
         printf("O arithmos einai perittos\n", x);
-    }
+    }//mas epistrefi tin timi an einai perittos
     
     return 0;
 }
