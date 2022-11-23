@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main(){
+    int x;
+    
+    printf("dose arithmo\n");
+    scanf("%d",&x);
+    if ((x % 2) == 0 )
+    {
+        printf("o arithmos einai artios\n", x);
+    }
+    else
+    {
+        printf("O arithmos einai perittos\n", x);
+    }
+    
+    return 0;
+}
